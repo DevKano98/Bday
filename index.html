@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Sohan Khanchane!</title>
+    <meta name="description" content="Celebrating the birthday of Sohan Khanchane - Tech Leader and Python Expert">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" onclick="toggleTheme()">
+        <span class="theme-icon">🌙</span>
+    </div>
+
+    <!-- Background Audio -->
+    <audio id="bgMusic" loop autoplay muted>
+        <source src="assets/audio/birthday-song.mp3" type="audio/mpeg">
+        <source src="assets/audio/birthday-song.ogg" type="audio/ogg">
+    </audio>
+
+    <!-- Floating Elements -->
+    <div class="floating-hearts"></div>
+    <div class="floating-balloons"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#intro" class="nav-link active">Home</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section 1: Intro -->
+    <section id="intro" class="section intro-section">
+        <div class="confetti-container"></div>
+        <div class="container">
+            <div class="intro-content" data-aos="fade-up">
+                <h1 class="birthday-title">
+                    <span class="typewriter" data-text="Happy Birthday, Sohan!"></span>
+                </h1>
+                <p class="birthday-subtitle" data-aos="fade-up" data-aos-delay="2000">
+                    Python Expert | Tech Leader | Innovator
+                </p>
+                <div class="countdown-container" data-aos="fade-up" data-aos-delay="2500">
+                    <h3>Birthday Countdown:</h3>
+                    <div class="countdown" id="countdown">
+                        <div class="time-unit">
+                            <span id="days">000</span>
+                            <label>Days</label>
+                        </div>
+                        <div class="time-unit">
+                            <span id="hours">00</span>
+                            <label>Hours</label>
+                        </div>
+                        <div class="time-unit">
+                            <span id="minutes">00</span>
+                            <label>Minutes</label>
+                        </div>
+                        <div class="time-unit">
+                            <span id="seconds">00</span>
+                            <label>Seconds</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Photo Gallery -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Tech Journey 📸</h2>
+            <div class="swiper gallery-swiper" data-aos="fade-up" data-aos-delay="200">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="gallery-card">
+                            <img src="assets/images/img1.jpg" alt="Coding Session">
+                            <div class="gallery-overlay">
+                                <p>Kaka Ma.......</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-card">
+                            <img src="assets/images/img2.jpg" alt="Tech Meetup">
+                            <div class="gallery-overlay">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-card">
+                            <img src="assets/images/img3.jpg" alt="Project Launch">
+                            <div class="gallery-overlay">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-card">
+                            <img src="assets/images/img4.jpg" alt="Team Building">
+                            <div class="gallery-overlay">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-card">
+                            <img src="assets/images/img5.jpg" alt="Innovation">
+                            <div class="gallery-overlay">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-card">
+                            <img src="assets/images/img6.jpg" alt="Achievement">
+                            <div class="gallery-overlay">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-card">
+                            <img src="assets/images/img7.jpg" alt="Learning">
+                            <div class="gallery-overlay">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-card">
+                            <img src="assets/images/img8.jpg" alt="Success">
+                            <div class="gallery-overlay">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-card">
+                            <img src="assets/images/img9.jpg" alt="Future">
+                            <div class="gallery-overlay">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="gallery-card">
+                            <img src="assets/images/img10.jpg" alt="Legacy">
+                            <div class="gallery-overlay">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Achievements -->
+    <section id="achievements" class="section achievements-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Tech Achievements 🏆</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="achievement-icon">💻</div>
+                    <h3>Python Mastery</h3>
+                    <p>The Founder Of Python Langauage,Who trained elonmusk to build Tesla</p>
+                </div>
+                <div class="achievement-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="achievement-icon">🚀</div>
+                    <h3>Money Leadership</h3>
+                    <p>The Big Bull of India Who can Buy Ambanis</p>
+                </div>
+                <div class="achievement-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="achievement-icon">🎯</div>
+                    <h3>Samosa Usal Man</h3>
+                    <p>The One Who Promoted Samosa Usal in Maharashtra</p>
+                </div>
+                <div class="achievement-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="achievement-icon">🌟</div>
+                    <h3>Innovation</h3>
+                    <p>The Father of Takeshi Nakamoto, Ek Bitcoin Dede Bhaiiii</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
